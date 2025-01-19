@@ -1,0 +1,108 @@
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+/* css reset */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary-color: red;
+    --secondary-color: orange;
+    --primary-bg-color: #fff;
+    --secondary-bg-color: #eaeaea;
+    font-size: 20px;
+}
+html{
+    font-size: 10px;
+}
+
+#imph{
+    background-color: aqua;
+
+}
+h1{
+    margin: 10px 0px;
+    /* background-color: ; */
+    font-size: 40px;
+    /* border: 5px solid black; */
+    box-sizing: content-box;
+}
+.heads{
+    color: green;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: var(--primary-color);
+    padding: 20px;
+    box-sizing: content-box;
+} 
+
+p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.special{
+    cursor: pointer;
+    padding-top: 50px;
+    /* 
+        problamtic for JS as well
+    */
+}
+.special:hover{
+    background-color: red;
+}
+
+.specialImg{
+    width: 50%;
+    height: 50%;
+}
+
+.test-1-div{
+    width: 60vw;
+    background-color: red;
+    height: 100px;
+}
+
+.container{
+    height: 400px;
+    width: 70%;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.square-box{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+    /* position: absolute; */
+    position: sticky;
+    bottom: 30px;
+    /* bottom: 0px;
+    right: 10px; */
+    /* left: 0px;
+    bottom: 50px; */
+    /* top: 50px; */
+}
+.purple{
+    background-color: purple;
+    /* z-index: 1000; */
+}

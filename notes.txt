@@ -1,0 +1,7 @@
+how to be enable git in a repository ->
+
+git add -> tracking scenario / staging scenario 
+    git add . (all)
+    git add abPos.html
+git commit 
+git push
