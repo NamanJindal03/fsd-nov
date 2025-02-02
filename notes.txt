@@ -1,7 +1,67 @@
 how to be enable git in a repository ->
+always and always you have to use -> git bash -> 
+never ever use CMD, powershell anythign
+
+how to we swithc from one to another in visual studio code
+
 
 git add -> tracking scenario / staging scenario 
     git add . (all)
     git add abPos.html
 git commit 
 git push
+
+LINUX commands -> most important linux commands -> 
+
+    pwd -> present work directory
+    cd -> change directory 
+    cd .. -> go back a directory / coming outside a directory
+    ls -> list 
+        ls -a -> list all -> 
+    mkdir -> make a directory
+    rmdir -> remove a directory
+    touch -> creates a file
+    rm -> removes a file
+
+why git bash over the other terminals ->   
+    git bash is a terminal which supports a lot of linux based commands -> 
+    ls
+    cd 
+    mkdir
+    rmdir
+
+    why we need linux commands -> 
+
+    whenever you have to use a virutal mahcine -> 
+         you get an optionn which type server of server to choose -L> 
+            linux is hte cheapest and most efficient -> 
+                apple oS -> expensive and more problmatic ->
+                windows -> it has their own challenges ->
+
+        GUI ->
+
+    when you are using a virtual machine -> you do not have the UI -> 
+
+    .git is a hidden folder -> 
+
+    empty folders are never part of git -> 
+        git is a file version tool -> 
+        it does not track empty folders ->
+
+    why a feuture development in stages -> 
+    1. easy to review -> 
+    2. easy to rollback and identify mistakes and startover 
+
+    git commit -m "<message_name>" 
+        always and always put a meanignful message -> 
+
+    commit id -> 
+    commit 894ff547287ead09ff859a1f457da0cb4a92ae72 (HEAD -> master)
+    Author: Naman Jindal <namanjindal113@gmail.com>
+    Date:   Sun Jan 19 16:28:29 2025 +0530
+
+    till html css
+
+    till now are we using github??? NO
+
+    difference file and change -> 
